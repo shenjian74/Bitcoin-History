@@ -1,0 +1,294 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sqlite - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "r:\temp\ADMINI~1\RSP693.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "SQLITE_ENABLE_COLUMN_METADATA" /D "NO_TCL" /D THREADSAFE=1 /D "SQLITE_HAS_CODEC" /D "QLITE_ENABLE_FTS3" /D "SQLITE_ENABLE_RTREE" /D "SQLITE_ENABLE_LOAD_EXTENSION" /D "SQLITE_SOUNDEX" /D _WIN32_WINNT=0x0400 /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Debug/sqlite.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\AMVersion\division\uds\udstool\sqlite\interop.c"
+]
+Creating command line "cl.exe @r:\temp\ADMINI~1\RSP693.tmp" 
+Creating temporary file "r:\temp\ADMINI~1\RSP694.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/sqlite.pdb" /debug /machine:I386 /def:".\src\sqlite3.def" /out:"Debug/sqlite.dll" /implib:"Debug/sqlite.lib" /pdbtype:sept 
+.\Debug\interop.obj
+]
+Creating command line "link.exe @r:\temp\ADMINI~1\RSP694.tmp"
+<h3>Output Window</h3>
+Compiling...
+interop.c
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11152) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11153) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11154) : warning C4244: '=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11157) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11271) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11272) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11275) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11276) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11277) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11278) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11293) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11295) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11340) : warning C4244: 'initializing' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11346) : warning C4244: '=' : conversion from 'double ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11388) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11448) : warning C4244: '=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11457) : warning C4244: '-=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11459) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11474) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11561) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11563) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11565) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11567) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11571) : warning C4244: '+=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11577) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11579) : warning C4244: '+=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11583) : warning C4244: '+=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11622) : warning C4244: '=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11791) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11822) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11825) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11848) : warning C4244: '=' : conversion from '__int64 ' to 'char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(12448) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(15809) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(16937) : warning C4244: 'initializing' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(17265) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(18622) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(19062) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(19065) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(19072) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25524) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25525) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25557) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25558) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25589) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(25590) : warning C4244: 'initializing' : conversion from '__int64 ' to 'long ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(28636) : warning C4018: '>=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29213) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29351) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29357) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29580) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29593) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29717) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29733) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29928) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(30207) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(30214) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(30217) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(30512) : warning C4018: '<=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(30935) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(31478) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(31560) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(31618) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(31825) : warning C4018: '<=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(31826) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(33629) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(33631) : warning C4244: 'function' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(34368) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(34467) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35256) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35619) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35692) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35751) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35760) : warning C4018: '<=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(35763) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36418) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36422) : warning C4018: '<=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36539) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36544) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36746) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(36753) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37141) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37143) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37148) : warning C4244: 'function' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37149) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37219) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37433) : warning C4018: '<=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37571) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37610) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37622) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37772) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37843) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37845) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(37862) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(38047) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(38128) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(39477) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(39588) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(39708) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(39751) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40133) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40326) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40330) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40443) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40492) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40494) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40573) : warning C4244: 'initializing' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(40575) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41046) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41054) : warning C4244: 'function' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41055) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41395) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41590) : warning C4244: '=' : conversion from 'const __int64 ' to 'double ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41595) : warning C4244: '=' : conversion from 'const __int64 ' to 'double ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(41933) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(43895) : warning C4244: 'return' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(43911) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44018) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44032) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44187) : warning C4018: '<' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44282) : warning C4018: '>=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44344) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44389) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44725) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44904) : warning C4244: '=' : conversion from 'double ' to '__int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(44934) : warning C4244: '=' : conversion from 'double ' to 'unsigned __int64 ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(46598) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(46613) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(46939) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(46949) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47046) : warning C4244: '=' : conversion from '__int64 ' to 'double ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47839) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47860) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47898) : warning C4018: '>=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47916) : warning C4018: '<' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(47933) : warning C4018: '<' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48113) : warning C4244: '+=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48136) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48148) : warning C4244: 'function' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48153) : warning C4244: '=' : conversion from 'unsigned __int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48371) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48375) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(48511) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(49298) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(49442) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(49445) : warning C4018: '>' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(50056) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(50062) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(50508) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(50509) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(53379) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(58304) : warning C4018: '==' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(62382) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(62418) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(62946) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(63219) : warning C4244: 'initializing' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(63220) : warning C4244: 'initializing' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(63221) : warning C4244: 'initializing' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(66150) : warning C4049: compiler limit : terminating line number emission
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(76867) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(93803) : warning C4049: compiler limit : terminating line number emission
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94021) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94022) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94023) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94024) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94025) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94026) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94027) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94028) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned char ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94059) : warning C4244: 'return' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94929) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(94942) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(95021) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(95930) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(95931) : warning C4244: '+=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(95935) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(95942) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(96039) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(96042) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(663) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(664) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(769) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(824) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(879) : warning C4244: 'function' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(1492) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(1493) : warning C4244: '=' : conversion from '__int64 ' to 'int ', possible loss of data
+d:\amversion\division\uds\udstool\sqlite\crypt.c(134) : warning C4018: '!=' : signed/unsigned mismatch
+d:\amversion\division\uds\udstool\sqlite\merge_full.h(6) : warning C4083: expected 'string'; found identifier 'push'
+d:\amversion\division\uds\udstool\sqlite\merge_full.h(9) : warning C4083: expected 'string'; found identifier 'pop'
+d:\amversion\division\uds\udstool\sqlite\interop.c(313) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(11791) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-28316) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-28395) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-28393) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-28388) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-28387) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29351) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(29357) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-24583) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-24482) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-31907) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-31905) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-20045) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-18597) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-17400) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-17388) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-15474) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-27668) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-21192) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-21147) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-3154) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-3118) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-2590) : warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-8978) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-8294) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-10717) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-12460) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-13413) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-13411) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-3839) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\src\sqlite3.c(-607) : warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(663) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(664) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(769) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(824) : warning C4761: integral size mismatch in argument; conversion supplied
+d:\amversion\division\uds\udstool\sqlite\extension-functions.c(879) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+   Creating library Debug/sqlite.lib and object Debug/sqlite.exp
+LINK : warning LNK4039: section ".clr" specified with /SECTION option does not exist
+<h3>
+--------------------Configuration: shell - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "r:\temp\ADMINI~1\RSPA6B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/shell.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\AMVersion\division\uds\udstool\sqlite\shell\shell.c"
+]
+Creating command line "cl.exe @r:\temp\ADMINI~1\RSPA6B.tmp" 
+Creating temporary file "r:\temp\ADMINI~1\RSPA6C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/shell.pdb" /debug /machine:I386 /out:"..\debug\shell.exe" /pdbtype:sept 
+.\Debug\shell.obj
+..\Debug\sqlite.lib
+]
+Creating command line "link.exe @r:\temp\ADMINI~1\RSPA6C.tmp"
+<h3>Output Window</h3>
+Compiling...
+shell.c
+Linking...
+
+
+
+<h3>Results</h3>
+shell.exe - 0 error(s), 240 warning(s)
+</pre>
+</body>
+</html>
