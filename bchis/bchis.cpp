@@ -204,11 +204,13 @@ void writeout_file(char *time_peroid){
 }
 
 void read_data_from_db(void){
+	/*
 	writeout_file("5m");
 	writeout_file("15m");
 	writeout_file("30m");
 	writeout_file("1h");
 	writeout_file("4h");
+	*/
 	writeout_file("1d");
 }
 
