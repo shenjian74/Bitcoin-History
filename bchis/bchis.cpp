@@ -45,7 +45,16 @@ DataMap dataMap;
 int main(int argc, char* argv[])
 {
 	int retcode;
+	int pre_day = 30;
 	
+	for(int i=0; i<argc; i++){
+		if(0 == stricmp(argv[i],"-d")){
+			pre_day = atoi(argv[++i]);
+			if(0 == pre_day){
+				pre_day = 30;
+			}
+		}
+	}
 	retcode = sqlite3_open("history.db", &pDB);
 	if(SQLITE_OK!=retcode){
 		printf("retcode of sqlite3_open():%d description:%s", retcode, sqlite3_errmsg(pDB));
@@ -62,8 +71,13 @@ int main(int argc, char* argv[])
 	FILE *fp = fopen("trades.csv", "wb");
 	if(NULL != fp){
 		W3Client w3;
+		char url[1024];
+		long t = time(NULL);
+		t-=60*60*24*pre_day;
+		sprintf(url, "/t/trades.csv?symbol=mtgoxUSD&start=%ld", t);
+		
 		if(w3.Connect("http://bitcoincharts.com")){
-			if(w3.Request("/t/trades.csv?symbol=mtgoxUSD")){
+			if(w3.Request(url)){
 				// 默认获得前五天的数据
 				// 如果使用"trades.csv?symbol=mtgoxUSD&start=0",则获取全部数据
 				char buf[1024];
@@ -204,12 +218,12 @@ void writeout_file(char *time_peroid){
 }
 
 void read_data_from_db(void){
-	/*
-	writeout_file("5m");
-	writeout_file("15m");
-	writeout_file("30m");
-	writeout_file("1h");
-	writeout_file("4h");
+/*
+writeout_file("5m");
+writeout_file("15m");
+writeout_file("30m");
+writeout_file("1h");
+writeout_file("4h");
 	*/
 	writeout_file("1d");
 }
@@ -262,3 +276,6 @@ void read_data_from_file(void){
 		printf("Cannot open source file.");
 	}
 }
+
+/* end of file */
+

@@ -10,3 +10,7 @@
 *.lai
 *.la
 *.a
+*.obj
+vc60.pdb
+vc60.idb
+*.pch
