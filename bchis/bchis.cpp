@@ -45,13 +45,13 @@ DataMap dataMap;
 int main(int argc, char* argv[])
 {
 	int retcode;
-	int pre_day = 30;
+	int pre_day = 5;
 	
 	for(int i=0; i<argc; i++){
 		if(0 == stricmp(argv[i],"-d")){
 			pre_day = atoi(argv[++i]);
 			if(0 == pre_day){
-				pre_day = 30;
+				pre_day = 5;
 			}
 		}
 	}
