@@ -74,9 +74,10 @@ int main(int argc, char* argv[])
 		char url[1024];
 		long t = time(NULL);
 		t-=60*60*24*pre_day;
-		sprintf(url, "/t/trades.csv?symbol=mtgoxUSD&start=%ld", t);
+		// sprintf(url, "/t/trades.csv?symbol=mtgoxUSD&start=%ld", t);
+		sprintf(url, "/v1/trades.csv?symbol=mtgoxUSD");
 		
-		if(w3.Connect("http://bitcoincharts.com")){
+		if(w3.Connect("http://api.bitcoincharts.com")){
 			if(w3.Request(url)){
 				// 默认获得前五天的数据
 				// 如果使用"trades.csv?symbol=mtgoxUSD&start=0",则获取全部数据
