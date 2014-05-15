@@ -14,3 +14,5 @@
 vc60.pdb
 vc60.idb
 *.pch
+*.ncb
+*.opt
